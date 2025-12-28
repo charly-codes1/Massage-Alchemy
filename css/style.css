@@ -9716,8 +9716,10 @@ h6,
     background-color: #ffae6b13
 }
 .Gallery img{
-    width: 350px;
-    height: 400px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
     margin: 1px;
     transition: 0.8s;
 }
@@ -9733,7 +9735,8 @@ h6,
     padding: 25px 0;   
 }
 .carousel-cell{
-    width: 340px;
+    width: 100%;
+    max-width: 340px;
     height: 400px;
     overflow: hidden;
     margin: 0px;
